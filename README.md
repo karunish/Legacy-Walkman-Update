@@ -36,7 +36,7 @@ Open Now Playing, tap the sliders icon in the top bar, and pick **Slowed**,
 ## Build
 
 ```bash
-git clone https://github.com/<you>/semc-music-pitch-tempo.git
+git clone https://github.com/karunish/Legacy-Walkman-Update.git
 cd semc-music-pitch-tempo
 ./build.sh /path/to/SemcMusic.apk
 ```
