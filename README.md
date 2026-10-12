@@ -69,8 +69,6 @@ uninstall it first (this clears the app's data).
 | Pitch/tempo needs | Android 6.0+ (uses `MediaPlayer.setPlaybackParams`); on older versions the control does nothing |
 | **Not supported yet** | **Android 15+**: the app targets API 19, which those versions refuse to install, and it ships 32-bit-only native libraries that 64-bit-only phones cannot run |
 
-```Note: It isn't dependent on proprietary sony firmware an
-
 Disabled because they depend on Sony firmware or servers: ClearAudio+, DSEE HX,
 illumination, Update Center, and Sony's online services. 
 
@@ -90,6 +88,8 @@ illumination, Update Center, and Sony's online services.
 - At a gapless track change the new track may play at the old speed for about 250 ms.
 - If a device's audio path can't do a requested speed/pitch, a toast says so.
 - Untested on devices other than the one above.
+
+>Note: It isn't dependent on proprietary sony firmware, this was only made to restore the walkman feel to my D2305 running a non-stock ROM
 
 ## Troubleshooting
 
