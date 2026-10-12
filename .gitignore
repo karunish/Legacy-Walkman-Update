@@ -1,0 +1,8 @@
+tools/
+work/
+out/
+dev/build/
+*.apk
+*.idsig
+*.jks
+*.keystore
